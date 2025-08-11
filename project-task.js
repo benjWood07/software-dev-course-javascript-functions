@@ -120,3 +120,9 @@ function printNamesList(nameArray) {
 let names = ["Alice", "Bob", "Charlie"];
 printNamesList(names);
 
+
+function provideHope() {
+    console.log("Keep pushing forward, every step counts!");
+}
+provideHope();
+// Git Commit and Push Example
