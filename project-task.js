@@ -75,7 +75,7 @@ for (let i = 0; i < names.length; i++) {
 
 // Function 1: Greet a single user
 function greetUser(name) {
-    console.log("Welcome, " + name + "!");
+    console.log(`Welcome, ${name}!`);
 }
 // Using the greetUser function to greet multiple users
 // This function takes a name as a parameter and prints a greeting message
@@ -92,7 +92,8 @@ function calculateSum(a, b) {
 let num1 = 5
 let num2 = 10;
 let sum = calculateSum(num1, num2);
-displayCalculation("sum", num1, num2, sum);
+displayCalculation("sum", num1, num2,
+     sum);
 
 // Function 3: Calculate product of two numbers
 function calculateProduct(a, b) {
@@ -120,9 +121,3 @@ function printNamesList(nameArray) {
 let names = ["Alice", "Bob", "Charlie"];
 printNamesList(names);
 
-
-function provideHope() {
-    console.log("Keep pushing forward, every step counts!");
-}
-provideHope();
-// Git Commit and Push Example
